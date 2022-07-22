@@ -14,3 +14,9 @@ wsgi --http :8001 --module my_server:hello
 ```bash
 PORT=8002 gunicorn my_server:hello
 ```
+
+или
+
+```bash
+uwsgi --ini uwsgi.ini
+```
